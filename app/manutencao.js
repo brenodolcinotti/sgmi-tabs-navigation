@@ -4,9 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function Manutencao() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>
-        Nenhuma ordem de manutenção pendente no momento.
-      </Text>
+      <Text style={styles.text}>Nenhuma ordem de manutenção pendente no momento.</Text>
     </View>
   );
 }
